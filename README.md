@@ -1,1 +1,5 @@
-# Airline_Passenger_Analysis
+A US airline passenger dataset is selected to perform machine learning models to analyze and predict airline passenger satisfaction and the data source is from Kaggle. https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
+
+The dataset is first explored by getting the basic statistics, shape of dataset and data type of different columns. Then, data is cleaned by identifying and replacing missing value. Information in dataset is then visualized to understand the demographic and the general rating of different services that customers of the airline receive. After grasping a general picture of the dataset, categorical data like gender, customer type, and type of travel are encoded so as to find the correlation between different variables and satisfaction. 
+
+Logistic regression and the KNN model are chosen as the machine learning model to predict satisfaction. Following the initial logistic regression model trained with 6 moist correlated feature, the model is improved by using 4 variables which are derived  by the RFE model. The models is furthur improved by utliaing the KNN model. There was no accuracy improvement after a random selction of k-value. WIth the tunning the best a value , the accuracy score improved from 82% to 88% from the initial logistic regression model. 
